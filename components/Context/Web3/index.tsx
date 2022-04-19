@@ -49,10 +49,10 @@ export default function Web3Provider(props: any) {
         };
         if((window as any).ethereum){
             fetchAccounts();
-            fetchData().then(r => {
-                setSwaggers(r);
-            });
-        }
+        };
+        fetchData().then(r => {
+            setSwaggers(r);
+        });
     },[])
 
     const value = { account, setAccount, appStatus, minting, setMinting, swaggers };;
