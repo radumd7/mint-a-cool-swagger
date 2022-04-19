@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="w-full h-24 flex items-center justify-between p-4 border-b border-gray-300 dark:border-gray-600">
             <div className="flex items-center text-3xl text-indigo-600 dark:text-indigo-300">
                 <a
-                    href="https://github.com/radumd7/Web3-Swaggers.git"
+                    href="https://github.com/radumd7/mint-a-cool-swagger"
                     target="_blank"
                     rel="noreferrer"
                     className="mr-4"
