@@ -32,7 +32,7 @@ export default function Minter() {
                 htmlFor="swagger_name"
                 className="label-primary"
             >
-                Enter you swagger's name
+                {`Enter you swagger's name`}
             </label>
             <input
                 id="swagger_name"
